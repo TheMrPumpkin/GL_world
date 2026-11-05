@@ -1,4 +1,4 @@
-# OpenGL_world
+# GL_world
 
 A learning project exploring **Modern OpenGL (4.4 core profile)** in C++, built while working through texturing, camera controls, and lighting.
 
