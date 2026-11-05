@@ -1,6 +1,8 @@
 # OpenGL_world
 
-A learning project exploring **Modern OpenGL (4.4 core profile)** in C++, built while working through texturing, camera controls, lighting, and (next) terrain rendering.
+A learning project exploring **Modern OpenGL (4.4 core profile)** in C++, built while working through texturing, camera controls, and lighting.
+
+> **Project status: Final.** Development on this project has ended. Work continues in a different project, and this repository is the final product. See the [Roadmap](#roadmap).
 
 <!-- Add a screenshot or GIF here, e.g.: ![Screenshot](docs/screenshot.png) -->
 
@@ -13,7 +15,6 @@ A learning project exploring **Modern OpenGL (4.4 core profile)** in C++, built 
 - Light casters: directional, point (with attenuation), and spotlight (soft edges)
 - `VertexArray` class wrapping VAO/VBO setup
 - `Texture2D` class for loading and binding textures
-- Terrain rendering *(in progress, see [Roadmap](#roadmap))*
 
 ## Dependencies
 
@@ -99,6 +100,11 @@ OpenGL_world/
 
 ## Updates
 
+### Project concluded (2026-11-05)
+
+- Further development of this project has been cancelled. I'm moving on to a different project, so this repository is the final product.
+- The planned terrain rendering and the remaining roadmap items were not implemented.
+
 ### Light casters (2026-09-30)
 
 - Extended the Phong lighting shader to support different types of light casters:
@@ -109,25 +115,23 @@ OpenGL_world/
 
 ## Roadmap
 
+**Development of this project has been cancelled and moved to a different project. This is the final product.**
+
+Completed:
+
 - [x] Lighting (Phong: ambient/diffuse/specular)
 - [x] Light casters (directional, point, spotlight)
-- [ ] Terrain generation (heightmap-based)
-- [ ] Load and render 3D models (e.g. via Assimp)
-- [ ] Full object rotation controls (all axes)
-- [ ] Blinn-Phong lighting variant
-- [ ] Config system for swapping textures/materials/parameters without recompiling
-- [ ] Element buffer objects for indexed drawing
-- [ ] Multiple objects / scene graph
+
+Cancelled (will not be implemented here):
+
+- [ ] ~~Terrain generation (heightmap-based)~~ — cancelled
+- [ ] ~~Load and render 3D models (e.g. via Assimp)~~ — cancelled
+- [ ] ~~Full object rotation controls (all axes)~~ — cancelled
+- [ ] ~~Blinn-Phong lighting variant~~ — cancelled
+- [ ] ~~Config system for swapping textures/materials/parameters without recompiling~~ — cancelled
+- [ ] ~~Element buffer objects for indexed drawing~~ — cancelled
+- [ ] ~~Multiple objects / scene graph~~ — cancelled
 
 ## License
 
 See [LICENSE](LICENSE).
-
-<!--
-Maintenance notes:
-- Features: add items as they're implemented
-- Roadmap: check off finished items, add new goals
-- Project Structure: reflect new files/folders
-- Dependencies: add any new libraries
-- Updates: add a dated entry for each completed feature or fix
--->
