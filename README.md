@@ -4,7 +4,7 @@ A learning project exploring **Modern OpenGL (4.4 core profile)** in C++, built 
 
 > **Project status: Final.** Development on this project has ended. Work continues in a different project, and this repository is the final product. See the [Roadmap](#roadmap).
 
-<!-- Add a screenshot or GIF here, e.g.: ![Screenshot](docs/screenshot.png) -->
+<img width="1500" height="834" alt="image" src="https://github.com/user-attachments/assets/7bbf3a51-7c34-45a9-98f5-394fdbce115b" />
 
 ## Features
 
